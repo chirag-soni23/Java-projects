@@ -33,7 +33,7 @@ class Library{
     }
 
     // display books
-    public void displayBook(){
+    public void displayBooks(){
         if(books.isEmpty()){
             System.out.println("No books available in the library");
         }else{

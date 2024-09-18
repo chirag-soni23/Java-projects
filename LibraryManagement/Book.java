@@ -8,7 +8,7 @@ class Book{
     public Book(String title,String author, boolean isIssued){
         this.title = title;
         this.author = author;
-        this.isIssued = false;
+        this.isIssued = isIssued;
     }
 
     public String getTitle() {
