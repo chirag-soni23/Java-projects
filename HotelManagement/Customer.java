@@ -1,8 +1,10 @@
-class Customer{
-    private String name;
-    private String contactNumber;
 
-    public Customer(String name, String contactNumber){
+class Customer {
+
+    private final String name;
+    private final String contactNumber;
+
+    public Customer(String name, String contactNumber) {
         this.name = name;
         this.contactNumber = contactNumber;
     }
@@ -14,5 +16,5 @@ class Customer{
     public String getContactNumber() {
         return contactNumber;
     }
-    
+
 }

@@ -1,13 +1,14 @@
 
 import java.util.Date;
 
-class Booking{
+class Booking {
+
     private Room room;
     private Customer customer;
     private Date checkInDate;
     private Date checkOutDate;
 
-    public Booking(Room room, Customer customer, Date checkInDate, Date checkOutDate){
+    public Booking(Room room, Customer customer, Date checkInDate, Date checkOutDate) {
         this.room = room;
         this.customer = customer;
         this.checkInDate = checkInDate;
@@ -29,5 +30,5 @@ class Booking{
     public Date getCheckOutDate() {
         return checkOutDate;
     }
-    
+
 }
