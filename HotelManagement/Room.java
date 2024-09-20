@@ -1,12 +1,12 @@
 class Room{
-    private int roomNumber;
+    private final int roomNumber;
     private boolean isAvailable;
-    private double price;
+    private final double price;
 
-    public Room(int roomNumber, String roomType,boolean isAvailable,double price){
+    public Room(int roomNumber,double price){
         this.roomNumber = roomNumber;
-        this.isAvailable = isAvailable;
         this.price = price;
+        this.isAvailable = true;
     }
 
     public int getRoomNumber() {
@@ -17,11 +17,11 @@ class Room{
         return price;
     }
 
-    public boolean isIsAvailable() {
+    public boolean isAvailable() {
         return isAvailable;
     }
 
-    public void setIsAvailable(boolean isAvailable) {
+    public void setAvailable(boolean isAvailable) {
         this.isAvailable = isAvailable;
     }
 }
