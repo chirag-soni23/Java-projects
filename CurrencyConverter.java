@@ -13,7 +13,7 @@ public class CurrencyConverter {
             
             System.out.println("Enter the amount you want to convert:");
             double amount = sc.nextDouble();
-            double result = 0;
+            double result;
             
             switch (choice) {
                 case 1 -> {
